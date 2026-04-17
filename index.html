@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bartosz Stryjewski (57794) - PTW LAB C</title>
+
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin="" defer></script>
+    <script src="https://unpkg.com/leaflet-providers@2.0.0/leaflet-providers.js" defer></script>
+    <script src="https://unpkg.com/leaflet-image@0.4.0/leaflet-image.js" defer></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+<div id="map"></div>
+
+<div id="buttonRow">
+    <button id="getLocation">My location</button>
+    <button id="saveButton">Save map</button>
+</div>
+
+<div id="puzzleArea">
+    <div id="mapGrid"></div>
+    <div id="solutionGrid"></div>
+</div>
+</body>
+</html>
